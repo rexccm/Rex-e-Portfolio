@@ -1,0 +1,29 @@
+main .main {
+    width: 75%; 
+}
+
+main .main * {
+    white-space: pre-wrap;
+}
+
+/* Reponsive */
+/* Mobile */
+@media (max-width: 768px) {
+    main .columns {
+        flex-direction: column; 
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1366px) { 
+
+}
+
+/* Desktop */
+@media (min-width: 1367px) and (max-width: 1919px) { 
+
+}
+
+@media (min-width: 1920px) { 
+
+}

@@ -1,0 +1,33 @@
+aside { 
+    height: 100%;
+    margin-right: calc(36vw / 19.2); 
+    border: 1px solid var(--color-primary); 
+}
+
+/* Responsive */
+/* Mobile */
+@media (max-width: 768px) {
+    aside {
+        margin-right: 0; 
+    }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1366px) { 
+    aside {
+        margin-right: calc(36vw / 13.66); 
+    }
+}
+
+/* Desktop */
+@media (min-width: 1367px) and (max-width: 1919px) { 
+    aside {
+        margin-right: calc(36vw / 13.66); 
+    }
+}
+
+@media (min-width: 1920px) { 
+    aside {
+        margin-right: 36px; 
+    }
+}

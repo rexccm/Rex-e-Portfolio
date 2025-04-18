@@ -1,0 +1,9 @@
+footer { 
+    width: 100%; 
+    background-color: var(--color-primary); 
+    margin-top: auto; 
+}
+
+footer .row { 
+    display: flex; 
+}

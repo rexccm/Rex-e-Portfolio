@@ -1,0 +1,51 @@
+/* Theme settings */
+:root { 
+    /* Basic colors */
+    --color-black: #504242; 
+    --color-white: white; 
+
+    /* Color scheme */
+    --color-primary: #9AD6D1; 
+    --color-secondary: darkcyan; 
+
+    /* Accent colors */
+    --color-skyblue: skyblue; 
+}
+
+html {
+    max-width: 100vw;
+    min-height: 100vh; 
+}
+
+body {
+    min-height: 100vh; 
+    margin: 0; 
+    padding: 0; 
+    background-color: var(--color-white); 
+    color: var(--color-black); 
+}
+
+#root {
+    width: 100%; 
+    min-height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.row {
+    max-width: 1600px; 
+    margin: 0 auto; 
+}
+
+.columns {
+    display: flex; 
+    padding: 0 20px; 
+}
+
+img {
+    height: fit-content;
+}
+
+h1 {
+    margin: 0 0 .75rem 0; 
+}
